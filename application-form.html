@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+</head>
+<body>
+
+<!-- your html goes here -->
+<h1>Basic Job Application</h1>
+
+<p>Submit to us!  Fill out the information below in order to be considered for the well-paying, ridiculously fun and highly engaging job of your dreams.</p>
+
+<!-- THE FORM. All fields are required; salary requirement must be a number. -->
+<form action="/application" method="POST">
+
+    <!-- Name (first and last), Salary Requirement -->
+    <label for="first-name">First Name</label>
+    <input id="first-name" type="text" name="first-name" required><br><br>
+    
+    <label for="last-name">Last Name</label>
+    <input id="last-name" type="text" name="last-name" required><br><br>
+
+    <label for="sal-req">Salary Requirement</label>
+    <input id="sal-req" type="number" name="sal-req" required><br><br>
+
+    <!-- Radio button for which position the user is applying for -->
+    <fieldset>
+    <legend>Which pleasing position are you applying for?</legend>
+        <input id="swe" type="radio" name="job" value="Software Engineer" required>
+        <label for="swe">Software Engineer</label><br>
+
+        <input id="qa-eng" type="radio" name="job" value="QA Engineer">
+        <label for="qa-eng">QA Engineer</label><br>
+
+        <input id="prod-man" type="radio" name="job" value="Product Manager">
+        <label for="prod-man">Product Manager</label>
+    </fieldset><br>
+
+    <!-- Submit Button -->
+    <input type="submit" name="button" value="Apply">
+</form>
+
+</body>
+</html>
