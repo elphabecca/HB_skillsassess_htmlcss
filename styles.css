@@ -1,2 +1,22 @@
 /* Your CSS goes here */
 
+/*submit button is yellow*/
+.button {
+    background-color: yellow;
+}
+
+/*all input text fields are yellow*/
+input {
+    background-color: yellow;
+}
+
+/*last-name input field text is bold*/
+#last-name {
+    font-weight: bold;
+}
+
+.text-border {
+    border: 0.5em solid blue;
+    padding: 1em;
+    text-align: center;
+}
