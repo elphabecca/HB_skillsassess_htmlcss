@@ -15,6 +15,7 @@ input {
     font-weight: bold;
 }
 
+/*border around instruction box*/
 .text-border {
     border: 0.5em solid blue;
     padding: 1em;
